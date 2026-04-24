@@ -48,11 +48,7 @@ def main():
     while True:
         show_menu()
         choice = input("Выберите пункт (1-5): ")
-        if choice == "1":
-            add_habit()
-        elif choice == "2":
-            list_habits()
-        elif choice == "5":
+        if choice == "5":
             print("До свидания!")
             break
         else:
